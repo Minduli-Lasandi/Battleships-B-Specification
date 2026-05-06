@@ -1,0 +1,15 @@
+MACHINE Battleships_Ctx
+SETS
+    PLAYER = {P1, P2};
+    ORIENTATION = {horizontal, vertical};
+    REPORT = {SUCCESS, ERROR_OUT_OF_BOUNDS, ERROR_OVERLAP, ERROR_SEQUENCE, 
+              HIT, MISS, SUNK, P1_WIN, P2_WIN, NOT_YOUR_TURN, GAME_OVER, 
+              SETUP_NOT_COMPLETE};
+    GAME_STATUS = {setting_up, playing, p1_win, p2_win}
+CONSTANTS
+    GRID_SIZE,
+    COORDINATES
+PROPERTIES
+    GRID_SIZE = 1..10 &
+    COORDINATES = GRID_SIZE * GRID_SIZE
+END
