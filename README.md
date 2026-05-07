@@ -1,6 +1,6 @@
 # Battleships
 
-A formal specification of the Battleships board game, written in **B (Abstract Machine Notation)**. Built as part of a Formal Methods module using **Atelier B** and **ProB**.
+A formal specification of the Battleships board game, written in **B (Abstract Machine Notation/Formal method)**. Built as part of a Formal Methods module using **Atelier B** and **ProB**.
 
 ## What is B?
 
@@ -11,11 +11,11 @@ B is a formal method used to model and verify software systems mathematically. I
 ```
 ├── Battleships_Ctx.mch   # Constants, sets, and types (grid, players, orientations, reports)
 ├── Fleet.mch             # Ship placement logic for both players
-├── Battleships.mch       # Main machine — game state, shooting logic, and enquiry operations
+├── Battleships.mch       # Main machine: game state, shooting logic, and enquiry operations
 └── .gitignore
 ```
 
-## Game Rules (Simplified)
+## Game Rules
 
 - 10x10 grid
 - Each player has 3 ships:
